@@ -5,3 +5,11 @@ C:\Users\amunteanu\Desktop\Homework1\Tema1\Tema1.SharedLogic\obj\Release\netcore
 C:\Users\amunteanu\Desktop\Homework1\Tema1\Tema1.SharedLogic\obj\Release\netcoreapp3.1\SharedLogic.AssemblyInfo.cs
 C:\Users\amunteanu\Desktop\Homework1\Tema1\Tema1.SharedLogic\obj\Release\netcoreapp3.1\SharedLogic.dll
 C:\Users\amunteanu\Desktop\Homework1\Tema1\Tema1.SharedLogic\obj\Release\netcoreapp3.1\SharedLogic.pdb
+C:\Users\amunteanu\Desktop\Work\Distributed-Computer-Programing\Tema1\Tema1.SharedLogic\bin\Release\netcoreapp3.1\SharedLogic.deps.json
+C:\Users\amunteanu\Desktop\Work\Distributed-Computer-Programing\Tema1\Tema1.SharedLogic\bin\Release\netcoreapp3.1\SharedLogic.dll
+C:\Users\amunteanu\Desktop\Work\Distributed-Computer-Programing\Tema1\Tema1.SharedLogic\bin\Release\netcoreapp3.1\SharedLogic.pdb
+C:\Users\amunteanu\Desktop\Work\Distributed-Computer-Programing\Tema1\Tema1.SharedLogic\obj\Release\netcoreapp3.1\SharedLogic.csprojAssemblyReference.cache
+C:\Users\amunteanu\Desktop\Work\Distributed-Computer-Programing\Tema1\Tema1.SharedLogic\obj\Release\netcoreapp3.1\SharedLogic.AssemblyInfoInputs.cache
+C:\Users\amunteanu\Desktop\Work\Distributed-Computer-Programing\Tema1\Tema1.SharedLogic\obj\Release\netcoreapp3.1\SharedLogic.AssemblyInfo.cs
+C:\Users\amunteanu\Desktop\Work\Distributed-Computer-Programing\Tema1\Tema1.SharedLogic\obj\Release\netcoreapp3.1\SharedLogic.dll
+C:\Users\amunteanu\Desktop\Work\Distributed-Computer-Programing\Tema1\Tema1.SharedLogic\obj\Release\netcoreapp3.1\SharedLogic.pdb

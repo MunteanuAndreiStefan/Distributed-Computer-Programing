@@ -10,7 +10,7 @@ namespace Tema1.Core.Senders
 {
     public class DataSenderUDP : BaseDataSender
     {
-        public DataSenderUDP(string hostName, int port, int maxDataSize) : base(hostName, port, maxDataSize){}
+        public DataSenderUDP(string hostName, int port, int maxDataSize, Watcher watcher) : base(hostName, port, maxDataSize, watcher){}
 
         public override Utils.ConnectionType Type => Utils.ConnectionType.UDP;
 
@@ -27,6 +27,7 @@ namespace Tema1.Core.Senders
             catch (Exception e)
             {
                 Console.WriteLine(e.ToString());
+                Watcher.NewErrorAdded();
             }
         }
 
@@ -44,6 +45,7 @@ namespace Tema1.Core.Senders
                 catch (Exception e)
                 {
                     Console.WriteLine(e.ToString());
+                    Watcher.NewErrorAdded();
                 }
             }
             

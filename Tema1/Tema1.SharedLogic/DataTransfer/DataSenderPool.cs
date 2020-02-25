@@ -9,8 +9,10 @@ namespace Tema1.Core.Senders
     {
         private readonly new Dictionary<Utils.ConnectionType, BaseDataSender> _senders;
         private readonly Watcher _watcher;
-        public TimeSpan TransferTimeForMessage => this._watcher.ElapsedTimePerAction;
-        public TimeSpan TotalTransferTime => this._watcher.TotalElapsedTime;
+        public TimeSpan TransferTimeForMessage => _watcher.ElapsedTimePerAction;
+        public TimeSpan TotalTransferTime => _watcher.TotalElapsedTime;
+
+        public int NumberOfErrors => _watcher.NumberOfErrors;
 
         public DataSenderPool(string serverName, int serverPort, int maxMessageSize)
         {
@@ -18,8 +20,8 @@ namespace Tema1.Core.Senders
             _senders = new Dictionary<Utils.ConnectionType, BaseDataSender>
             {
 
-                { Utils.ConnectionType.TCP, new DataSenderTCP(serverName, serverPort, maxMessageSize) },
-                { Utils.ConnectionType.UDP, new DataSenderUDP(serverName, serverPort, maxMessageSize) }
+                { Utils.ConnectionType.TCP, new DataSenderTCP(serverName, serverPort, maxMessageSize, _watcher) },
+                { Utils.ConnectionType.UDP, new DataSenderUDP(serverName, serverPort, maxMessageSize, _watcher) }
             };
         }
 

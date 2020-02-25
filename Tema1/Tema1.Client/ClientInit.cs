@@ -16,6 +16,7 @@ namespace Tema1.Client
             var dataFiles = new FileCrawler().GetDataFiles().ToList();
             dataSender.SendBatched(dataFiles, Utils.STARTUP);
             Console.WriteLine(Utils.GetClientMessage(dataSender.TotalTransferTime.TotalSeconds));
+            Console.WriteLine(Utils.GetNumberOfErrors(dataSender.NumberOfErrors));
             Console.Read();
         }
     }

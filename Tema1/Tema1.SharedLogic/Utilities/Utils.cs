@@ -78,6 +78,8 @@ namespace Tema1.Core.Utilities
         public static string GetBytesSentNumber(int number) => $"Bytes sent: {number}";
         public static string GetClientMessage(double number) => $"\nTotal Transfer time: {number}\n";
         public static string GetMessageFromServer(string msg) => $"\nMessage from server: {msg}\n";
+
+        public static string GetNumberOfErrors(int number) => $"\nNumber of errors: {number}\n";
         public static string ETAG => "File received.";
         #endregion
     }

@@ -10,14 +10,16 @@ namespace Tema1.Core.Senders
         protected string Name { get; }
         protected int Port { get; }
         protected int MaxDataSize { get; }
+        protected Watcher Watcher { get; }
         public DataFileResult Results { get; set; }
         public virtual Utils.ConnectionType Type => Utils.ConnectionType.TCP;
-        protected BaseDataSender(string hostName, int port, int maxDataSize)
+        protected BaseDataSender(string hostName, int port, int maxDataSize, Watcher watcher)
         {
             Name = hostName;
             Port = port;
             MaxDataSize = maxDataSize;
             Results = new DataFileResult();
+            Watcher = watcher;
         }
 
         public virtual string GetResultsMessage =>

@@ -9,7 +9,7 @@ namespace Tema1.Core.Senders
 {
     public class DataSenderTCP : BaseDataSender
     {
-        public DataSenderTCP(string name, int port, int maxMessageSize) : base(name, port, maxMessageSize) { }
+        public DataSenderTCP(string name, int port, int maxMessageSize, Watcher watcher) : base(name, port, maxMessageSize, watcher) { }
 
         public override Utils.ConnectionType Type => Utils.ConnectionType.TCP;
 
@@ -40,7 +40,7 @@ namespace Tema1.Core.Senders
 
                 stream.Write(dataSize, 0, dataSize.Length);
                 byteArray.Split(this.MaxDataSize).ToList().ForEach(package => SendPackage(stream, package));
-                System.Threading.Thread.Sleep(50);
+                System.Threading.Thread.Sleep(70);
             }
             stream.Close();
             client.Close();
