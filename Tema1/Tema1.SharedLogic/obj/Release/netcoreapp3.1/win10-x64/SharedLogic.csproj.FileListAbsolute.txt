@@ -1,0 +1,8 @@
+C:\Users\amunteanu\Desktop\Homework1\Tema1\Tema1.SharedLogic\bin\Release\netcoreapp3.1\win10-x64\SharedLogic.deps.json
+C:\Users\amunteanu\Desktop\Homework1\Tema1\Tema1.SharedLogic\bin\Release\netcoreapp3.1\win10-x64\SharedLogic.dll
+C:\Users\amunteanu\Desktop\Homework1\Tema1\Tema1.SharedLogic\bin\Release\netcoreapp3.1\win10-x64\SharedLogic.pdb
+C:\Users\amunteanu\Desktop\Homework1\Tema1\Tema1.SharedLogic\obj\Release\netcoreapp3.1\win10-x64\SharedLogic.csprojAssemblyReference.cache
+C:\Users\amunteanu\Desktop\Homework1\Tema1\Tema1.SharedLogic\obj\Release\netcoreapp3.1\win10-x64\SharedLogic.AssemblyInfoInputs.cache
+C:\Users\amunteanu\Desktop\Homework1\Tema1\Tema1.SharedLogic\obj\Release\netcoreapp3.1\win10-x64\SharedLogic.AssemblyInfo.cs
+C:\Users\amunteanu\Desktop\Homework1\Tema1\Tema1.SharedLogic\obj\Release\netcoreapp3.1\win10-x64\SharedLogic.dll
+C:\Users\amunteanu\Desktop\Homework1\Tema1\Tema1.SharedLogic\obj\Release\netcoreapp3.1\win10-x64\SharedLogic.pdb

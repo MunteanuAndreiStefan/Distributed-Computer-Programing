@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <AssemblyName>SharedLogic</AssemblyName>
+    <RootNamespace>SharedLogic</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Resources\**" />
+    <Compile Remove="TestResources\**" />
+    <EmbeddedResource Remove="Resources\**" />
+    <EmbeddedResource Remove="TestResources\**" />
+    <None Remove="Resources\**" />
+    <None Remove="TestResources\**" />
+  </ItemGroup>
+
+</Project>
